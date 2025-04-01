@@ -1,13 +1,15 @@
 import React from 'react'
-import Button from './components/Button'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <>
-    <div>Application initiation</div>
-    <Button/>
+        <Navbar />
+        <div>
+            <Footer />
+        </div>
     </>
-
   )
 }
 
